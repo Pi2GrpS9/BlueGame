@@ -1,0 +1,94 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/sample_main_layout"
+      android:focusable="true" android:focusableInTouchMode="true"
+      android:background="#0e2a3e">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="START"
+            android:id="@+id/start_button"
+            android:layout_toLeftOf="@+id/sign_out_button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#0e2a3e"
+            android:textColor="#ba12ea"
+            android:textSize="30dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Out"
+            android:id="@+id/sign_out_button"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="18dp"
+            android:textColor="#f4f4f4"
+            android:background="#0e2a3e" />
+
+    </RelativeLayout>
+
+
+
+    <ViewAnimator
+          android:id="@+id/sample_output"
+          android:layout_width="match_parent"
+          android:layout_height="0px"
+          android:layout_weight="1">
+
+        <ScrollView
+              style="@style/Widget.SampleMessageTile"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+            <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/frameLayoutGame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+
+        <fragment
+              android:name="com.example.android.common.logger.LogFragment"
+              android:id="@+id/log_fragment"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" />
+
+    </ViewAnimator>
+
+    <View
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@android:color/darker_gray"
+          android:textColor="#f4f4f4"/>
+
+    <FrameLayout
+          android:id="@+id/sample_content_fragment"
+          android:layout_weight="0.30"
+          android:layout_width="match_parent"
+          android:layout_height="0px"
+          android:textColor="#f4f4f4"/>
+
+</LinearLayout>
+

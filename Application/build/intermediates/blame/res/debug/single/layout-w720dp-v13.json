@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/layout-w720dp-v13/dialog_game_won.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/src/main/res/layout-w720dp/dialog_game_won.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/layout-w720dp-v13/activity_main.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/src/main/res/layout-w720dp/activity_main.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/layout-w720dp-v13/dialog_game_won.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/src/main/res/layout-w720dp/dialog_game_won.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/layout-w720dp-v13/activity_main.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/src/main/res/layout-w720dp/activity_main.xml"
+    }
+]

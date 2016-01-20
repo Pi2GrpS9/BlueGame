@@ -1,0 +1,394 @@
+[
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/circle.png",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/src/main/res/drawable/circle.png"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable/common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.3.0/res/drawable/messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/com_facebook_button_send_background.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.3.0/res/drawable/com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_round.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.3.0/res/drawable/messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/loser2.jpg",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/src/main/res/drawable/loser2.jpg"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/croix.png",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/src/main/res/drawable/croix.png"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/winner2.jpg",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/src/main/res/drawable/winner2.jpg"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/boost.png",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/src/main/res/drawable/boost.png"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/winner.png",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/src/main/res/drawable/winner.png"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_round.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.3.0/res/drawable/messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.3.0/res/drawable/com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.3.0/res/drawable/messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/com_facebook_button_send_background.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.3.0/res/drawable/com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.3.0/res/drawable/com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.3.0/res/drawable/com_facebook_button_background.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/winner2.jpg",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/src/main/res/drawable/winner2.jpg"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/loser2.jpg",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/src/main/res/drawable/loser2.jpg"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.3.0/res/drawable/messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.3.0/res/drawable/com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/croix.png",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/src/main/res/drawable/croix.png"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.3.0/res/drawable/com_facebook_button_background.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/bluetooth.png",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/src/main/res/drawable/bluetooth.png"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.3.0/res/drawable/messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/circle.png",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/src/main/res/drawable/circle.png"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/winner.png",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/src/main/res/drawable/winner.png"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/bluetooth.png",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/src/main/res/drawable/bluetooth.png"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/boost.png",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/src/main/res/drawable/boost.png"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable/common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_round.xml",
+        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.3.0/res/drawable/messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_round.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.3.0/res/drawable/messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
+        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.3.0/res/drawable/com_facebook_button_login_silver_background.xml"
+    }
+]
