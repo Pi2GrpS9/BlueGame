@@ -44,7 +44,7 @@
 
         <activity
             android:name="com.example.android.bluetoothchat.MainActivity"
-            android:configChanges="orientation|keyboardHidden"
+            android:configChanges="orientation|screenSize"
             android:label="Blue Game" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

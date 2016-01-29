@@ -1,42 +1,22 @@
 [
     {
-        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/menu/bluetooth_chat.xml",
-        "source": "/Users/alireza/Desktop/BluetoothChat/Application/src/main/res/menu/bluetooth_chat.xml"
+        "merged": "/Users/alireza/Desktop/pi/BlueGame/Application/build/intermediates/res/merged/debug/menu/menu_choose_game_activity.xml",
+        "source": "/Users/alireza/Desktop/pi/BlueGame/Application/src/main/res/menu/menu_choose_game_activity.xml"
     },
     {
-        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/menu/menu_choose_game_activity.xml",
-        "source": "/Users/alireza/Desktop/BluetoothChat/Application/src/main/res/menu/menu_choose_game_activity.xml"
+        "merged": "/Users/alireza/Desktop/pi/BlueGame/Application/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/alireza/Desktop/pi/BlueGame/Application/src/main/res/menu/main.xml"
     },
     {
-        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/menu/menu_sign_up.xml",
-        "source": "/Users/alireza/Desktop/BluetoothChat/Application/src/main/res/menu/menu_sign_up.xml"
+        "merged": "/Users/alireza/Desktop/pi/BlueGame/Application/build/intermediates/res/merged/debug/menu/menu_login.xml",
+        "source": "/Users/alireza/Desktop/pi/BlueGame/Application/src/main/res/menu/menu_login.xml"
     },
     {
-        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/menu/menu_login.xml",
-        "source": "/Users/alireza/Desktop/BluetoothChat/Application/src/main/res/menu/menu_login.xml"
+        "merged": "/Users/alireza/Desktop/pi/BlueGame/Application/build/intermediates/res/merged/debug/menu/bluetooth_chat.xml",
+        "source": "/Users/alireza/Desktop/pi/BlueGame/Application/src/main/res/menu/bluetooth_chat.xml"
     },
     {
-        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/menu/main.xml",
-        "source": "/Users/alireza/Desktop/BluetoothChat/Application/src/main/res/menu/main.xml"
-    },
-    {
-        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/menu/bluetooth_chat.xml",
-        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/src/main/res/menu/bluetooth_chat.xml"
-    },
-    {
-        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/menu/menu_sign_up.xml",
-        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/src/main/res/menu/menu_sign_up.xml"
-    },
-    {
-        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/menu/menu_login.xml",
-        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/src/main/res/menu/menu_login.xml"
-    },
-    {
-        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/menu/main.xml",
-        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/src/main/res/menu/main.xml"
-    },
-    {
-        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/menu/menu_choose_game_activity.xml",
-        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/src/main/res/menu/menu_choose_game_activity.xml"
+        "merged": "/Users/alireza/Desktop/pi/BlueGame/Application/build/intermediates/res/merged/debug/menu/menu_sign_up.xml",
+        "source": "/Users/alireza/Desktop/pi/BlueGame/Application/src/main/res/menu/menu_sign_up.xml"
     }
 ]

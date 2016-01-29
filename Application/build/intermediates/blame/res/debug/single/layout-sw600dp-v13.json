@@ -1,10 +1,6 @@
 [
     {
-        "merged": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/Users/alireza/Desktop/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout-sw600dp/design_layout_snackbar.xml"
-    },
-    {
-        "merged": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/Users/kelvin/Documents/Esilv/PI2/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout-sw600dp/design_layout_snackbar.xml"
+        "merged": "/Users/alireza/Desktop/pi/BlueGame/Application/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/alireza/Desktop/pi/BlueGame/Application/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout-sw600dp/design_layout_snackbar.xml"
     }
 ]
