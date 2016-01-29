@@ -1,3 +1,19 @@
+/*
+* Copyright 2013 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
 package com.example.android.bluetoothchat;
 
 import android.app.Dialog;
@@ -18,6 +34,8 @@ import com.example.android.common.logger.Log;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
+import com.facebook.GraphRequest;
+import com.facebook.GraphResponse;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.auth.api.Auth;
@@ -27,6 +45,11 @@ import com.google.android.gms.auth.api.signin.GoogleSignInResult;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.facebook.FacebookSdk;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.Arrays;
 
 
 public class LoginActivity extends FragmentActivity implements
@@ -42,64 +65,66 @@ public class LoginActivity extends FragmentActivity implements
         DataBaseHelper helper=new DataBaseHelper(this);
         private CallbackManager callbackManager;
         private LoginButton loginButton;
+        public String nameA;
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             //FragmentActivity    faActivity  = (FragmentActivity)super.LoginActivity;
             super.onCreate(savedInstanceState);
-            //test hashkey
-            /*try {
-                PackageInfo info = getPackageManager().getPackageInfo(
-                        "com.example.android.bluetoothchat",
-                        PackageManager.GET_SIGNATURES);
-                for (Signature signature : info.signatures) {
-                    MessageDigest md = MessageDigest.getInstance("SHA");
-                    md.update(signature.toByteArray());
-                    Log.d("KeyHash:", Base64.encodeToString(md.digest(), Base64.DEFAULT));
-                    Toast tst=Toast.makeText(LoginActivity.this, "KeyHash:"+ Base64.encodeToString(md.digest(), Base64.DEFAULT), Toast.LENGTH_LONG);
-                    tst.show();
-                }
-            } catch (PackageManager.NameNotFoundException e) {
-                Log.d("problem","problem");
-                Toast tst=Toast.makeText(LoginActivity.this, "pro", Toast.LENGTH_LONG);
-                tst.show();
 
-            } catch (NoSuchAlgorithmException e) {
-                Log.d("problem","problem");
-                Toast tst=Toast.makeText(LoginActivity.this, "pro", Toast.LENGTH_LONG);
-                tst.show();
-
-            }*/
-
-
-
-
-
-            //fb
+            //LOGIN WITH fb:
             FacebookSdk.sdkInitialize(getApplicationContext());
             callbackManager = CallbackManager.Factory.create();
             setContentView(R.layout.activity_login);
             loginButton = (LoginButton)findViewById(R.id.fb_login_button);
+            loginButton.setReadPermissions("user_friends");
+            loginButton.setReadPermissions("public_profile");
+            loginButton.setReadPermissions("email");
+            loginButton.setReadPermissions("user_birthday");
+            loginButton.setReadPermissions(Arrays.asList("public_profile, email, user_birthday, user_friends"));
             loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
-
                 @Override
                 public void onSuccess(LoginResult loginResult) {
-                    Log.d("hello","facebook login success");
-                    Intent ii = new Intent(LoginActivity.this, SignUp.class);
-                    startActivity(ii);
+                    GraphRequest request = GraphRequest.newMeRequest(
+                            loginResult.getAccessToken(),
+                            new GraphRequest.GraphJSONObjectCallback() {
+                                @Override
+                                public void onCompleted(
+                                        JSONObject object,
+                                        GraphResponse response) {
+                                    try{
+                                        //name = object.getString("name");
+                                        nameA=object.getString("name");
+                                        //Toast.makeText(LoginActivity.this, "onSuccess"+name, Toast.LENGTH_LONG).show();
+                                        //Toast.makeText(LoginActivity.this, "onSuccess"+nameA, Toast.LENGTH_LONG).show();
+                                        Contacts c=new Contacts();
+                                        c.setEmail(nameA);
+                                        c.setName(nameA);
+                                        c.setPassword(nameA);
+                                        c.setUsername(nameA);
+                                        c.score="0";
+                                        helper.insertContact(c);
+                                        Intent i = new Intent(LoginActivity.this, MainActivity.class);
+                                        i.putExtra("Username",nameA);
+                                        startActivity(i);
+                                    }
+                                    catch (JSONException exe){ }
+                                    //Toast.makeText(LoginActivity.this, "onSuccess"+name, Toast.LENGTH_LONG).show();
+                                    android.util.Log.v("LoginActivity", response.toString());
+                                }
+                            });
+                    Bundle parameters = new Bundle();
+                    parameters.putString("fields", "id,name,email,gender, birthday");
+                    request.setParameters(parameters);
+                    request.executeAsync();
                 }
-
                 @Override
                 public void onCancel() {
-                    Log.d("hello","facebook login cancel");
-                    Intent ii = new Intent(LoginActivity.this, SignUp.class);
-                    startActivity(ii);
+                     Toast.makeText(LoginActivity.this, "onCancel", Toast.LENGTH_LONG).show();
                 }
 
                 @Override
                 public void onError(FacebookException e) {
-                    Log.d("hello","facebook login error");
-                    Intent ii = new Intent(LoginActivity.this, SignUp.class);
-                    startActivity(ii);
+                      Toast.makeText(LoginActivity.this, "onError" + e.toString(), Toast.LENGTH_LONG).show();
                 }
             });
             //end of fb
@@ -134,7 +159,7 @@ public class LoginActivity extends FragmentActivity implements
                     String password=helper.searchPass(str);
                     if(pass.equals(password)) {
                         Intent i = new Intent(LoginActivity.this, choose_game_activity.class);
-                        //i.putExtra("Username",str);
+                        i.putExtra("Username",str);
                         startActivity(i);
                         //finish();
                     }
@@ -225,18 +250,20 @@ public class LoginActivity extends FragmentActivity implements
                 c.setName(acct.getDisplayName());
                 c.setPassword(acct.hashCode() + "");
                 c.setUsername(acct.getEmail().replace("@gmail.com", ""));
+                c.score="0";
                 helper.insertContact(c);
             }
 
             //add the contact to DB
             //go to connecxion page
             Intent i = new Intent(LoginActivity.this, choose_game_activity.class);
+            i.putExtra("Username",acct.getDisplayName());
             startActivity(i);
             //finish();
 
 
         } else {
-            Toast tst=Toast.makeText(LoginActivity.this, "handleSignInResult  cancel", Toast.LENGTH_LONG);
+            Toast tst=Toast.makeText(LoginActivity.this, "check your connection to internet!", Toast.LENGTH_LONG);
             tst.show();
             // Signed out, show unauthenticated UI.
             //updateUI(false);

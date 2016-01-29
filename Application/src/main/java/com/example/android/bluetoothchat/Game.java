@@ -1,4 +1,21 @@
+/*
+* Copyright 2013 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
 package com.example.android.bluetoothchat;
+
 
 import android.util.Log;
 
@@ -15,30 +32,36 @@ public class Game {
      *      -------------------------
      *      |   3   |   4   |   5   |
      *      -------------------------
-     *      |   6   |   7   |   8   | OKKjj
+     *      |   6   |   7   |   8   |
      *      -------------------------
      *
      */
 
 
-    private int currentPlayer = 0;
+//    private int currentPlayer = 0;
     private int[] gameArray;
 
     //the number of the first player have to be given in the constructor parameter
-    public Game(int currentPlayer) {
-        this.currentPlayer = currentPlayer;
+//    public Game(int currentPlayer) {
+//        this.currentPlayer = currentPlayer;
+//        this.gameArray = new int[] {0,0,0,0,0,0,0,0,0};
+//    }
+
+
+    public Game() {
         this.gameArray = new int[] {0,0,0,0,0,0,0,0,0};
     }
 
-
     // Add the value to the array
-    public boolean markACell(int location) {
+    public boolean markACell(int player, int location) {
 
         if(gameArray != null && gameArray.length != 0) {
             if(location <= gameArray.length) {
                 if(gameArray[location] == 0) {
-                    gameArray[location] = currentPlayer;
-                    Log.d("Game", currentPlayer + " added mark on cell number " + location);
+//                    gameArray[location] = currentPlayer;
+//                    Log.d("Game", currentPlayer + " added mark on cell number " + location);
+                    gameArray[location] = player;
+                    Log.d("Game", player + " added mark on cell number " + location);
                     return true;
                 } //end test free cell
             }  //end test length using location
@@ -47,20 +70,20 @@ public class Game {
     }
 
     // change to the next player (return the player who have to play)
-    public int changePlayer(){
-        switch(currentPlayer){
-            case 1 :
-                currentPlayer = 2;
-                break;
-            case 2 :
-                currentPlayer = 1;
-                break;
-            default:
-                currentPlayer = 0;
-                break;
-        }
-        return currentPlayer;
-    }
+//    public int changePlayer(){
+//        switch(currentPlayer){
+//            case 1 :
+//                currentPlayer = 2;
+//                break;
+//            case 2 :
+//                currentPlayer = 1;
+//                break;
+//            default:
+//                currentPlayer = 0;
+//                break;
+//        }
+//        return currentPlayer;
+//    }
 
     // check if the game is over
     public boolean checkForWin() {
@@ -79,7 +102,11 @@ public class Game {
     }
 
 
-    public int getCurrentPlayer() {
-        return currentPlayer;
-    }
+//    public int getCurrentPlayer() {
+//        return currentPlayer;
+//    }
+//
+//    public void setCurrentPlayer(int currentPlayer) {
+//        this.currentPlayer = currentPlayer;
+//    }
 }

@@ -19,6 +19,7 @@ package com.example.android.bluetoothchat;
 
 import android.app.Dialog;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -28,6 +29,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ViewAnimator;
 
@@ -51,23 +53,44 @@ import com.google.android.gms.common.api.ResultCallback;
  * on other devices it's visibility is controlled by an item on the Action Bar.
  */
 public class MainActivity extends AppCompatActivity
-        implements View.OnClickListener, GoogleApiClient.OnConnectionFailedListener {
+        implements View.OnClickListener, GoogleApiClient.OnConnectionFailedListener
+        ,BluetoothChatFragment.OnGameInteractionListener {
     Dialog dialog;
     public static final String TAG = "MainActivity";
+    public String username="";
     Button sign_out_button,start_game;
+    TextView score_txt;
     // Whether the Log Fragment is currently shown
     private boolean mLogShown;
     private GoogleApiClient mGoogleApiClient;
+    private BluetoothChatFragment mChatFragment;
+    String score;
+    DataBaseHelper helper=new DataBaseHelper(this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        username = getIntent().getStringExtra("Username");
 
+
+
+
+        Typeface tf=Typeface.createFromAsset(getAssets(),"fonts/Raleway-SemiBold.ttf");
+        sign_out_button=(Button)findViewById(R.id.sign_out_button);
+        sign_out_button.setTypeface(tf);
+        sign_out_button.setOnClickListener(this);
+
+        score_txt=(TextView)findViewById(R.id.score_txt);
+        score_txt.setTypeface(tf);
+        //find his score
+        score=helper.returnScore(username);
+        score_txt.setText(username + ",your score: " + score);
+        //
         if (savedInstanceState == null) {
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-            BluetoothChatFragment fragment = new BluetoothChatFragment();
-            transaction.replace(R.id.sample_content_fragment, fragment);
+            mChatFragment = new BluetoothChatFragment();
+            transaction.replace(R.id.sample_content_fragment, mChatFragment);
             transaction.commit();
         }
         sign_out_button=(Button)findViewById(R.id.sign_out_button);
@@ -85,11 +108,7 @@ public class MainActivity extends AppCompatActivity
                 .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
                 .build();
 
-        final TicTacToeFragment ticTacToeFragment = new TicTacToeFragment();
-        getSupportFragmentManager().beginTransaction()
-                .replace(R.id.frameLayoutGame, ticTacToeFragment)
-                .addToBackStack(null)
-                .commit();
+
         start_game=(Button)findViewById(R.id.start_button);
         start_game.setOnClickListener(this);
     }
@@ -100,29 +119,17 @@ public class MainActivity extends AppCompatActivity
                         new ResultCallback<Status>() {
                             @Override
                             public void onResult(Status status) {
-                                // [START_EXCLUDE]
-                                //updateUI(false);
-                                // [END_EXCLUDE]
-                                
-
-
-
-
-                                /*Intent it = new Intent(MainActivity.this, LoginActivity.class);
+                                Intent it = new Intent(MainActivity.this, LoginActivity.class);
                                 it.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                                 startActivity(it);
-                                finish();*/
+                                finish();
 
                             }
                         });
-
                 break;
             case R.id.start_button:
-                final TicTacToeFragment ticTacToeFragment = new TicTacToeFragment();
-                getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.frameLayoutGame, ticTacToeFragment)
-                        .addToBackStack(null)
-                        .commit();
+                //Toast.makeText(this,"Start",Toast.LENGTH_SHORT).show();
+                mChatFragment.startNewGame(1);
                 break;
         }
     }
@@ -183,9 +190,27 @@ public class MainActivity extends AppCompatActivity
     public void onConnectionFailed(ConnectionResult connectionResult) {
         
     }
+
+    public void onGameWon(int selectedCase) {
+        // TODO Game finished
+        Log.d("Main // WINNER = ", "" + selectedCase);
+    }
     @Override
     public void onBackPressed() {
-        finish();
+        Intent it = new Intent(MainActivity.this, choose_game_activity.class);
+        it.putExtra("Username",username);
+        startActivity(it);
+    }
 
+    // Before 2.0
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
+            Intent it = new Intent(MainActivity.this, choose_game_activity.class);
+            it.putExtra("Username",username);
+            startActivity(it);
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
     }
 }

@@ -1,3 +1,19 @@
+/*
+* Copyright 2013 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
 package com.example.android.bluetoothchat;
 
         import android.content.ContentValues;
@@ -47,7 +63,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         values.put(COLUMN_EMAIL, c.getEmail());
         values.put(COLUMN_PASS, c.getPassword());
         values.put(COLUMN_USERNAME, c.getUsername());
-        values.put(COLUMN_SCORE,"0");
+        values.put(COLUMN_SCORE, c.getScore());
         db.insert(TABLE_NAME, null, values);
         db.close();
     }
@@ -67,6 +83,12 @@ public class DataBaseHelper extends SQLiteOpenHelper {
             return true;
         }*/
         return count;
+    }
+    public void updateScore(String username,String score ){
+        db=this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put("score", score);
+        db.update(TABLE_NAME, values,  "username ='"+username+"'", null);
     }
 
     public String searchPass(String uname){
@@ -93,6 +115,21 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         Cursor cursor =db.rawQuery(query,null);
         String  b;
         b="not found";
+        if(cursor.moveToFirst()){
+            do{
+                b=cursor.getString(0);
+                break;
+            }
+            while(cursor.moveToNext());
+        }
+        return b;
+    }
+    public String returnScore(String username){
+        db=this.getReadableDatabase();
+        String query="select score from "+TABLE_NAME + " where username = '"+username+"'";
+        Cursor cursor =db.rawQuery(query,null);
+        String  b;
+        b="0";
         if(cursor.moveToFirst()){
             do{
                 b=cursor.getString(0);

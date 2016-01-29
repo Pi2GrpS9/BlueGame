@@ -48,13 +48,6 @@
               android:layout_height="1dp"
               android:background="@android:color/darker_gray" />
 
-        <fragment
-              android:name="com.example.android.common.logger.LogFragment"
-              android:id="@+id/log_fragment"
-              android:layout_width="match_parent"
-              android:layout_height="0px"
-              android:layout_weight="1" />
-
     </LinearLayout>
 
     <View
@@ -66,7 +59,16 @@
           android:id="@+id/sample_content_fragment"
           android:layout_weight="2"
           android:layout_width="0px"
-          android:layout_height="match_parent" />
+          android:layout_height="match_parent" >
+
+        <fragment
+              android:name="com.example.android.common.logger.LogFragment"
+              android:id="@+id/log_fragment"
+              android:layout_width="match_parent"
+              android:layout_height="708dp"
+              android:layout_weight="1"
+            android:layout_gravity="center" />
+    </FrameLayout>
 
     <Button
         android:layout_width="wrap_content"

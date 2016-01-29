@@ -6,63 +6,6 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.android.bluetoothchat.choose_game_activity"
     android:background="#0e2a3e">
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/wifi_btn_game"
-        android:background="@drawable/wifi"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="128dp"
-        android:layout_toEndOf="@+id/textView3"
-        android:layout_toRightOf="@+id/textView3"
-        android:layout_alignParentBottom="true"
-        android:layout_below="@+id/textView2" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/blue_btn_game"
-        android:background="@drawable/blue"
-        android:layout_alignParentBottom="true"
-        android:layout_marginRight="55dp"
-        android:layout_marginEnd="55dp"
-        android:layout_marginBottom="215dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="105dp"
-        android:layout_toLeftOf="@+id/textView2"
-        android:layout_toStartOf="@+id/textView2"
-        android:layout_below="@+id/textView4" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="short time game"
-        android:id="@+id/textView2"
-        android:autoText="false"
-        android:textSize="20dp"
-        android:textColor="#eaeaea"
-        android:layout_alignTop="@+id/blue_btn_game"
-        android:layout_alignRight="@+id/wifi_btn_game"
-        android:layout_alignEnd="@+id/wifi_btn_game"
-        android:layout_marginTop="71dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="long time game"
-        android:id="@+id/textView3"
-        android:autoText="false"
-        android:textSize="20dp"
-        android:textColor="#eaeaea"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_alignTop="@+id/wifi_btn_game"
-        android:layout_marginTop="60dp" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -74,6 +17,89 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:textSize="30dp"
-        android:textColor="#f4f4f4" />
+        android:textSize="25dp"
+        android:textColor="#f4f4f4"
+        android:layout_marginTop="40dp"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/blue_btn_game"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp"
+        android:layout_toStartOf="@+id/txt_two_player"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="267dp"
+        android:layout_toLeftOf="@+id/txt_two_player"
+        android:maxHeight="174dp"
+        android:maxWidth="300dp"
+        android:minHeight="174dp"
+        android:minWidth="300dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="short time game"
+        android:id="@+id/txt_two_player"
+        android:autoText="false"
+        android:textSize="18dp"
+        android:textColor="#2eead4"
+        android:layout_alignRight="@+id/wifi_btn_game"
+        android:layout_alignEnd="@+id/wifi_btn_game"
+        android:layout_alignBottom="@+id/blue_btn_game"
+        android:layout_alignTop="@+id/blue_btn_game"
+        android:maxHeight="20dp"
+        android:maxWidth="140dp"
+        android:minHeight="140dp"
+        android:minWidth="140dp"
+        android:textAlignment="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="-10dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_below="@+id/txt_two_player" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/wifi_btn_game"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/txt_multi_player"
+        android:layout_toRightOf="@+id/txt_multi_player"
+        android:layout_below="@+id/txt_two_player"
+        android:maxHeight="190dp"
+        android:maxWidth="320dp"
+        android:minHeight="190dp"
+        android:minWidth="320dp"
+        android:nestedScrollingEnabled="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="long time game"
+        android:id="@+id/txt_multi_player"
+        android:autoText="false"
+        android:textSize="18dp"
+        android:textColor="#c640ea"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textIsSelectable="false"
+        android:paddingRight="10dp"
+        android:maxWidth="140dp"
+        android:minHeight="140dp"
+        android:maxHeight="20dp"
+        android:layout_alignTop="@+id/wifi_btn_game"
+        android:layout_alignBottom="@+id/wifi_btn_game"/>
+
+
+
 </RelativeLayout>
